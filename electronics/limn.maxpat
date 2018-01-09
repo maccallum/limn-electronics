@@ -11,7 +11,7 @@
 ,
 		"rect" : [ 34.0, 79.0, 910.0, 544.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -37,6 +37,34 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-185",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 141.0, 129.0, 150.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 141.0, 126.0, 208.0, 18.0 ],
+					"style" : "",
+					"text" : "Return"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-178",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 141.0, 101.0, 150.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 141.0, 101.0, 208.0, 18.0 ],
+					"style" : "",
+					"text" : "Space bar"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-198",
 					"maxclass" : "comment",
@@ -1236,7 +1264,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1368.0, 829.0, 33.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.75, 125.0, 33.0, 20.0 ],
+					"presentation_rect" : [ 98.5, 125.0, 33.0, 20.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -1253,7 +1281,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1324.5, 829.0, 33.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.75, 100.0, 33.0, 20.0 ],
+					"presentation_rect" : [ 98.5, 100.0, 33.0, 20.0 ],
 					"style" : "",
 					"text" : "play"
 				}
@@ -2329,7 +2357,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 236.0, 77.0, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.0, 100.0, 45.0, 45.0 ],
+					"presentation_rect" : [ 45.75, 100.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -3633,7 +3661,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 552.5, 202.0, 495.0, 32.0 ],
 					"style" : "",
-					"text" : "83. 161. 167. 214. 283. 292. 310. 322. 364. 376. 412. 445. 484. 668. 689. 719. 790. 958. 1438. 1552. 2308. 3238. 3439. 6154."
+					"text" : "80. 91. 97. 103. 142. 184. 206. 334. 488. 638. 850. 1186. 1276. 1619. 2068. 2734. 3077. 3644. 4858. 5159. 5512. 6154. 6439. 7423."
 				}
 
 			}
